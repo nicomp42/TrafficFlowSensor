@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrafficFlowSensorDemo", "TrafficFlowSensor\TrafficFlowSensorDemo.csproj", "{B740694D-91D8-4232-B8AF-7B35C0A75BA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrafficFlowSensorClassLibrary", "TrafficFlowSensorClassLibrary\TrafficFlowSensorClassLibrary.csproj", "{8E6AD25B-28BC-4D0E-AA1F-27088ED5EA1C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B740694D-91D8-4232-B8AF-7B35C0A75BA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B740694D-91D8-4232-B8AF-7B35C0A75BA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B740694D-91D8-4232-B8AF-7B35C0A75BA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B740694D-91D8-4232-B8AF-7B35C0A75BA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E6AD25B-28BC-4D0E-AA1F-27088ED5EA1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E6AD25B-28BC-4D0E-AA1F-27088ED5EA1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E6AD25B-28BC-4D0E-AA1F-27088ED5EA1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E6AD25B-28BC-4D0E-AA1F-27088ED5EA1C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AA53ABC3-BF8C-4194-9517-7FBE6E830B4B}
+	EndGlobalSection
+EndGlobal
