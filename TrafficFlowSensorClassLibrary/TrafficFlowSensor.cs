@@ -12,13 +12,15 @@ namespace TrafficFlowSensorNamespace
         // private non-static class members. We will not be sharing them between threads
         private String sensorName;
         private Thread thread;
-        Action<int> CallMe;
+        private Action<int> CallMe;
         private TimeSpan timeSpan;
         /// <summary>
-        /// Set up a thread that we can spawn
+        /// Initialize the sensor and start it running
         /// </summary>
         /// <param name="sensorName">The friendly name of the sensor</param>
-        /// <param name="CallMe"> The method to call when vehicles arrive/depart. The method will be passed the number of vehicles entering (positive number) or leaving (negative number) the sensor.</param>
+        /// <param name="CallMe"> The method to call when vehicles arrive/depart. 
+        /// The method will be passed the number of vehicles entering (positive number) 
+        /// or leaving (negative number) the sensor in real time.</param>
         /// <params name="seconds"> How long the sensor should run, in seconds. Use 0 for Test Mode: 30-second duration, 1 vehicle entering per second.</params>
         /// <returns></returns>
         public Thread StartSensor(String sensorName, Action<int> CallMe, int seconds)
